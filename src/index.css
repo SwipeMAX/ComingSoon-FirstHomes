@@ -1,0 +1,61 @@
+@font-face {
+    font-family: GrantipoBold;
+    src: url('./assets/fonts/GrantipoBeta/GrantipoBeta001-Bold.ttf');
+}
+
+@font-face {
+    font-family: GrantipoRegular;
+    src: url('./assets/fonts/GrantipoBeta/GrantipoBeta001-Regular.ttf');
+}
+
+@font-face {
+    font-family: GrantipoExtraBold;
+    src: url('./assets/fonts/GrantipoBeta/GrantipoBeta001-ExtraBold.ttf')
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 14px;
+    font-family: GrantipoBold;
+    background-color: #ffffff;
+}
+
+main,
+nav,
+header,
+figure,
+div,
+section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0
+}
+
+h1 {
+    font-family: GrantipoExtraBold, sans-serif;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: GrantipoBold, sans-serif;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
