@@ -2,23 +2,25 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 
 export const Container = styled.div `
-    width: 100%;
-    min-height:100vh;
-    max-height:100vh;
+width: 100vw;
+height: 100vh;
 `
 export const LandingWrapper = styled.div`
-    width:100%
+    width:100vw;
+    height: 100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding-top:5rem;
+    // background: url("./assets/imgs/background.svg") 0px bottom no-repeat;
 
-    div{
+    // padding-top:5rem;
+
+    // div{
         display:flex;
         flex-direction:column;
     }
-    div img{
+   img{
         width:400px;
     }
     #arrow-top{
@@ -62,41 +64,33 @@ export const LandingWrapper = styled.div`
 
     }
 `
-export const InnerBackground = styled.div `
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    z-index: -1;
-    overflow: hidden;
-    height: 50vh;
-     .second{
-         position:relative;
-         top: -53px;
-     }
-    @media  (min-width:320px) and (max-width:428px){
-        top: 40% !important;
-        height: 60vh;
-    }
-    @media (min-width: 429px) and (max-width:501px){
-        top: 42%;
-        height: 58vh;   
-    }
-`
+// export const InnerBackground = styled.img `
+//     position: absolute;
+//     bottom: 0%;
+//     width: 100vw;
+   
+//     @media  (min-width:320px) and (max-width:428px){
+//         top: 40% !important;
+//         height: 60vh;
+//     }
+//     @media (min-width: 429px) and (max-width:501px){
+//         top: 42%;
+//         height: 58vh;   
+//     }
+// `
 
 class App extends Component {
     render(){
         return (
             <Container>
-                <InnerBackground>
-                    <img src={require('./assets/imgs/background.svg')} alt="background" />
-                    <img src={require('./assets/imgs/second-bg.svg')} alt="background" className="second"/>
-                </InnerBackground> 
+                {/* <InnerBackground src={require('./assets/imgs/background.svg')} alt="background"/> */}
+                    {/* <img src={require('./assets/imgs/background.svg')} alt="background" /> */}
+               
 
                 <LandingWrapper>
 
                     <div>
-                        <img src={require('./assets/imgs/circle-icon.svg')} alt="circle-icon" />
-                        <img src={require('./assets/imgs/arrow-polygon.svg')} alt="polygon" id="arrow-top"/>
+                        <img src={require('./assets/imgs/Group.svg')} alt="circle-icon" />
                     </div>
 
                     
