@@ -12,14 +12,8 @@ export const LandingWrapper = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    // background: url("./assets/imgs/background.svg") 0px bottom no-repeat;
 
-    // padding-top:5rem;
-
-    // div{
-        display:flex;
-        flex-direction:column;
-    }
+    
    img{
         width:400px;
     }
@@ -33,7 +27,6 @@ export const LandingWrapper = styled.div`
         left: 20px;
      } 
     @media (min-width:320px) and (max-width:428px){
-        padding-top:7rem;
 
         img{
             width:280px !important;
@@ -49,7 +42,6 @@ export const LandingWrapper = styled.div`
         }
     }
     @media (min-width: 429px) and (max-width:501px){
-        padding-top:6rem;
 
         img{
             width: 320px !important;
